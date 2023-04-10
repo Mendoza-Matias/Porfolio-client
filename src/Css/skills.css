@@ -72,6 +72,12 @@
     flex-wrap: wrap;
     gap: 2rem;
 }
+.section-views article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .section-views h2{
     margin-bottom: 15px;
     color: var(--palabras);

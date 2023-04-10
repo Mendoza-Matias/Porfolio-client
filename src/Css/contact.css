@@ -24,6 +24,10 @@
     height: 250px;
 }
 .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 5rem;
 }
