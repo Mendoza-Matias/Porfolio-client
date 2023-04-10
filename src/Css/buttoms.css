@@ -1,0 +1,42 @@
+.links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--palabras);
+    text-decoration: none;
+}
+
+.linkedin,
+.github,
+.cv{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.cv{
+    background: rgb(121, 119, 119);
+}
+.linkedin{
+    background: #0a66c2;
+}
+.github{
+    background:#1f2328 ;
+}
+.linkedin:hover{
+    opacity: 0.7;
+}
+.github:hover{
+    opacity: 0.7;
+}
+.cv:hover{
+    opacity: 0.7;
+}

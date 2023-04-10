@@ -1,0 +1,44 @@
+.separacion{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.section-form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20rem;
+    
+}
+.section-form p{
+    margin-top: 1rem;
+    color: var(--palabras);
+}
+.section-form h2{
+    color: var(--detalles);
+    font-size: 2rem;
+    border-bottom: 2px solid var(--palabras);
+}
+.contact img{
+    margin-top: 15px;
+    width: 200px;
+    height: 250px;
+}
+.contact{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.contact strong{
+    color: var(--detalles);
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width:1200px) {
+    .section-form p{
+        text-align: center;
+    }
+    .section-form h2{
+        border-bottom: none;
+    }
+
+}

@@ -1,0 +1,38 @@
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.info{
+margin-top: 18rem;
+margin-bottom: 10rem;
+width: 500px;
+color: var(--palabras);
+font-size: 1.2rem;
+}
+.me{
+    font-style: italic;
+    border-bottom: 0.5px solid var(--palabras);
+    color: var(--detalles);
+}
+.img{
+    margin-top: 3.5rem;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+}
+@media screen and (max-width:1200px) {
+    .img{
+        margin-top: 10rem;
+        width: 250px;
+        height: 250px;
+    }
+    .info{
+        margin-top: 2rem;
+        font: 20px;
+        text-align: left;
+        padding: 10px;
+    }
+}

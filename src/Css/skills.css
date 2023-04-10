@@ -1,0 +1,91 @@
+.contain-skills{
+    margin-top: 5rem;
+}
+
+.titulo{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--detalles);
+}
+.contain-skills .section-skills{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.contain-skills .section-skills .article-skills{
+    padding: 20px;
+    border: 0.5px solid var(--light);
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    background-image: linear-gradient(to bottom ,var(--fondo),#000);
+    
+}
+.contain-skills .section-skills .article-skills:hover{
+    box-shadow: 0px 0px 10px var(--detalles);
+}
+.contain-skills p {
+    margin-top: 5px;
+    color: var(--palabras);
+    font-size: 1.2rem;
+    text-align: center;
+}
+.item-title{
+    text-align: center;
+    color: var(--palabras);
+    border-bottom: 0.5rem solid var(--detalles);
+    width: 3rem;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+.items{
+    color: var(--palabras);
+    margin-top: 2.5rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.3rem;
+
+}
+
+.containImg{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.containImg img{
+    filter: grayscale(100%);
+}
+.containImg img:hover{
+    filter: none;
+}
+.section-views{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.section-views h2{
+    margin-bottom: 15px;
+    color: var(--palabras);
+    text-align: center;
+}
+.section-views video{
+    width: 500px;
+    height: 350px;
+}
+
+@media screen and (max-width:1200px) {
+    .section-views video{
+        width: 300px;
+        height: 350px;
+    }   
+    
+}

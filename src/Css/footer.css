@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-image: linear-gradient(to top,var(--fondo),black);
+}
+.footer p{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--palabras);
+}
+.footer strong{
+    color:var(--finally);
+    border-bottom: 0.5px solid var(--finally);
+}

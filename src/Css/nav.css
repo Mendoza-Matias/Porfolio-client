@@ -1,0 +1,97 @@
+/*Logo*/
+.logo{
+    text-align: center;
+    color: var(--palabras);
+    font-size: 2rem;
+    font-style: italic;
+    border-bottom: 0.2rem solid var(--detalles);
+    width: 100px;
+}
+
+.div{
+    background-image: linear-gradient(to right,var(--fondo),black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    color: var(--fondo);
+    width: 100%;
+    font-size: 1.3rem;
+}
+nav a {
+    margin: 0 2rem;
+    color: var(--palabras);
+}
+.div .nav-btn{
+    padding:5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: var(--palabras);
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.div nav ul li a:hover{
+    color:var(--detalles);
+}
+
+
+
+/*Estilos para la navegación*/
+@media screen and (max-width:1024px) {
+    .div .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    .div nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background: var(--fondo);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    .div .responsive_nav{
+        transform: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+    nav .nav-close-btn{
+        position: absolute;
+        top:2rem;
+        right: 2rem;
+    }
+    .nav-btn,.nav-close-btn{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+   
+
+
+
+
+
+ 
+
