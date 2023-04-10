@@ -8,6 +8,7 @@ const Form = () =>{
         correo:'',
         propuesta:''
     })
+    const [respuesta,setRespuesta] = useState('Mensaje no enviado')
 
     const handleChange = (e) =>{
         setInput({
@@ -22,7 +23,7 @@ const Form = () =>{
         const contacto = input
 
         const enviar = 
-           await fetch('http://localhost:8083/create',{
+           await fetch('https://porfolio-j9go.onrender.com/create',{
                 method:'POST',
                 body: JSON.stringify(contacto),
                 headers:{
@@ -39,8 +40,8 @@ const Form = () =>{
                     correo:'',
                     propuesta:''  
                 })
+                setRespuesta('Mensaje Enviado')
             }
-       
     }
 
     return(
@@ -56,7 +57,7 @@ const Form = () =>{
                 <label>Trabajo</label>
                 <textarea required value={input.propuesta} onChange={handleChange} placeholder='Necesito armar una pagina' name="propuesta" cols="40" rows="10" maxLength={100}></textarea>
                 <button type='submit'>Enviar</button>
-                <p>Gracias por tu tiempo.</p>
+                <p>{respuesta}</p>
             </form>
         </>
     )

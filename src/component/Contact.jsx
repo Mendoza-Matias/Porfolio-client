@@ -14,9 +14,7 @@ const Contact = () =>{
             <p>Aqui podras ver mi recorrido y los trabajos que e realizado.</p>
             <Buttoms/>
             <p><strong>Correo Electronico </strong><br/>mendoza.matias.ezequiel.01@gmail.com</p>
-            <p><strong>Telefono </strong><br/>117001025</p>
-            <p><strong>Linkedin </strong><br/>Matias Mendoza</p>
-            <p><strong>Github </strong><br/>Matias-Mendoza</p>
+            <p><strong>Telefono </strong><br/>1170001025</p>
             <img src={Logo} alt="Logo" />
             </article>
         </section>
