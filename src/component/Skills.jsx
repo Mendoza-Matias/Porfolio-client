@@ -45,7 +45,7 @@ const Skills = () =>{
             </section>
             <section className="contain-skills">
             <h2 className='titulo'>Mis proyectos</h2>
-            <p>Estos son algunos de mis proyectos realizados<br/>con diversas tecnologias  en lo que el objetivo era aplicar lo aprendido y conocer nuevas herramientas.</p>
+            <p>Estos son algunos de mis proyectos realizados<br/>con diversas tecnologias.</p>
             <Views/>
             <Footer/>
             </section>
