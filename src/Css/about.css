@@ -23,6 +23,10 @@ font-size: 1.2rem;
     height: 500px;
     border-radius: 5px;
 }
+.contacto{
+    display: flex;
+    justify-content: center;
+}
 @media screen and (max-width:1200px) {
     .img{
         margin-top: 10rem;

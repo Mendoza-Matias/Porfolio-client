@@ -26,7 +26,9 @@ const About = () =>{
                     Soy una persona autodidacta y creativa, siempre buscando aprender nuevas habilidades y explorar diferentes áreas de la tecnología. Además, me considero un gran colaborador en equipo y dedico mi tiempo y esfuerzo para asegurar el éxito del proyecto en el que esté involucrado.<br/>
                     Me apasiona la programación y creo que con mi perseverancia y dedicación, puedo hacer una contribución significativa en el campo de la tecnología. Estoy emocionado de ver qué oportunidades me esperan en el futuro y estoy dispuesto a enfrentar cualquier desafío que se me presente.
                     <br/>¡Gracias por tomarse el tiempo de conocerme un poco mejor!</p>
+                    <div className='contacto'>
                     <Buttoms/>
+                    </div>
                 </article>
             </section>
             <Footer/>
